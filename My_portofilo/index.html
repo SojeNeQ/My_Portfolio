@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <title>Portfolio Website - David Havelka </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/font-awesome.css">
+  <link rel="stylesheet" href="css/style.css">
+  
+</head>
+<body>
+
+  <!-- Page loader Start -->
+  <div class="page-loader fade-out">
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+  <!-- Page loader Konec -->
+
+  <!-- Pozadí Circles Start -->
+  <div class="bg-circles">
+  <div class="circle-1"></div>
+  <div class="circle-2"></div>
+  <div class="circle-3"></div>
+  <div class="circle-4"></div>
+  </div>
+  <!-- Pozadí Circles Konec -->
+
+  <!-- Překriv Start -->
+  <div class="overlay">
+  </div>
+  <!-- Překriv Konec -->
+
+
+  <!-- Main Start -->
+  <div class="main hidden">
+
+    <!-- Header Start -->
+    <header class="header">
+    <div class="container">
+      <div class="row flex-end">
+        <button type="button" class="nav-toggler">
+          <span></span>
+        </button>
+        <nav class="nav">
+          <div class="nav-inner">
+            <ul>
+              <li><a href="#home" class="nav-item link-item">Domů</a></li>
+              <li><a href="#about" class="nav-item link-item">O mně</a></li>
+              <li><a href="#portfolio" class="nav-item link-item">Portfolio</a></li>
+              <li><a href="#contact" class="nav-item link-item">Kontakt</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+    </header>
+    <!-- Header Konec -->
+
+    <!-- Home Section Start -->
+    <section class= "home-section align-items-center" id="home">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class= "home-text">
+          <p>Ahoj, já jsem </p>
+          <h1>David Havelka</h1>
+          <h2><span class="type"></span></h2>
+          <script src="js/typed.js"></script>
+
+          <script>
+            var typed = new Typed(`.type`, {
+              strings: [
+                `Grafik`,
+                `Frontend Devoleper`,
+                `Web Designer`,
+                `Střihač`
+              ],
+                typeSpeed: 60,
+                backSpeed: 60,
+                loop: true   
+            });
+          </script>
+
+
+          <a href="#about" class="btn link-item">Více o mně</a>
+          <a href="#portfolio" class="btn link-item">Portfolio</a>
+        </div>
+        <div class="home-img">
+          <div class="img-box">
+            <img src="img/profile-img.png" alt="profile-img">
+          </div>  
+        <div>
+      </div>
+    </div>
+    </section>
+    <!-- Konec home section  -->
+
+    <!-- About Section Start -->
+    <section class="about-section sec-padding" id="about">
+  <div class="container">
+    <div class="row">
+      <div class="section-title">
+        <h2>O mně</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="about-img">
+        <div class="img-box">
+          <img src="img/about-img.png" alt="about img">
+        </div>
+      </div>
+      <div class="about-text">
+        <p>Jmenuji se David Havelka a pocházím z Prahy. Stále se věnuji basketbalu, který mi dal do života řád, disciplínu a řadu kamarádských vztahů, které trvají dodnes. Považuji se za velmi optimistického a energického člověka, se soutěživým duchem v sobě samotném. Jsem zastáncem celoživotního vzdělání a rozvoje. Mám přečtených mnoho motivačních knížek a myslím si, že ikdyž budu starý, stále se budu mít co učit. Jsem velmi cílevědomý a ambiciózní. Rád zkouším nové věci a přijímám nové výzvy. Především takové, které mě posunou dál.
+        </p>
+        <h3>skills</h3>
+        <div class="skills">
+          <div class="skill-item">HTML</div>
+          <div class="skill-item">CSS</div>
+          <div class="skill-item">JavaScript</div>
+          <div class="skill-item">PHP</div>
+          <div class="skill-item">SCSS/SASS</div>
+          <div class="skill-item">Photoshop</div>
+          <div class="skill-item">Illustrator</div>
+          <div class="skill-item">Final Cut Pro</div>
+          <div class="skill-item">Logic Pro</div>
+        </div>
+
+          <div class="about-tabs">
+            <button type="button" class="tab-item active" data-target="#education">Vzdělání</button>
+            <button type="button" class="tab-item" data-target="#experience">Zkušenosti</button>
+          </div>
+
+          <!-- Vzdělání Start -->
+          <div class="tab-content active" id="education">
+            <div class="timeline">
+              <div class="timeline-item">
+                <span class="date">2019-2022</span>
+                <h4>Lorem<span></span></h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit explicabo rerum, qui sed earum fugit quisquam blanditiis dicta debitis distinctio.</p>
+              </div>
+              <div class="timeline-item">
+                <span class="date">2015-2019</span>
+                <h4>Bezpečnostně právní akademie - <span>Škola zaměřená na policistu</span></h4>
+                <p>Bezpečnostně právní činnost</p>
+              </div>
+            </div>
+          </div>
+          <!-- Vzdělání Konec -->
+
+          <!-- Zkušenosti Start -->
+          <div class="tab-content" id="experience">
+            <div class="timeline">
+              <div class="timeline-item">
+                <span class="date">2022 - 2022</span>
+                <h4>Web Designer - <span>HSH Sport</span></h4>
+                <p>Připravování grafických návrhů, rozvržení informací na stránce a základní strukturu webových stránek na internetu.</p>
+              </div>
+              <div class="timeline-item">
+                <span class="date">2021 - 2022</span>
+                <h4>Grafik - <span>HSH Sport</span></h4>
+                <p>Vytváření a grafické zpracování propagačních materiálů, reklamních podkladů nebo dalších fotagrafií či obrazů. Skicování prvních návrhů, postupně je podle zadavatele či klienta upravovat až do výsledného precizního produktu.</p>
+              </div>
+            </div>
+          </div>
+          <!-- Zkušenosti Konec -->
+          <a href="cv.pdf" target="_blank" class="btn">Moje CV</a>
+          <a href="#contact" class="btn link-item">Kontakt</a>
+        </div>
+      </div>
+    </div>
+    </section>
+    <!-- About Section Konec -->
+
+    <!-- Portfolio Section Start -->
+    <section class="portfolio-section sec-padding" id="portfolio">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Nejnovější práce</h2>
+      </div>
+    </div>
+    <div class="row">
+      <!-- Portfolio item Start -->
+      <div class="portfolio-item">
+        <div class="portfolio-item-thumbnail">
+          <img src="img/portfolio/first.jpg" alt="portfolio item thumb">
+        </div>
+        <h3 class="portfolio-item-title">Má první stránka</h3>
+        <button type="button" class="btn view-project-btn">Koukni na projekt</button>
+        <div class="portfolio-item-details">
+          <div class="description">
+            <p>Má první stránka, kterou jsem kdy vytvořil.</p>
+          </div>
+          <div class="general-info">
+            <ul>
+              <li>Vytvořeno - <span>15. Května. 2022</span></li>
+              <li>Technologie - <span>HTML, CSS, JavaScript</span></li>
+              <li>Role - Frontend</li>
+              <li>Koukni se online - <span><a href="https://github.com/SojeNeQ/My_daily_motivation/tree/main/Stranky" target="_blank">GitHub</a></span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- Portfolio item Konec --> 
+      <!-- Portfolio item Start -->
+      <div class="portfolio-item">
+        <div class="portfolio-item-thumbnail">
+          <img src="img/portfolio/second.jpg" alt="portfolio item thumb">
+        </div>
+        <h3 class="portfolio-item-title">Stránka Tailwind CSS</h3>
+        <button type="button" class="btn view-project-btn">Koukni na projekt</button>
+        <div class="portfolio-item-details">
+          <div class="description">
+            <p>Má první stránka vytvořená pomocí Tailwind CSS</p>
+          </div>
+          <div class="general-info">
+            <ul>
+              <li>Vytvořeno - <span>10. října 2022</span></li>
+              <li>Technologie - <span>HTML, CSS, JavaScript, SCSS</span></li>
+              <li>Role - Frontend</li>
+              <li>Koukni se online - <span><a href="https://github.com/SojeNeQ/Tesla_Tailwind_CSS" target="_blank">GitHub</a></span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- Portfolio item Konec -->
+      <!-- Portfolio item Start -->
+      <div class="portfolio-item">
+        <div class="portfolio-item-thumbnail">
+          <img src="img/portfolio/4.jpg" alt="portfolio item thumb">
+        </div>
+        <h3 class="portfolio-item-title">Náhodná stránka</h3>
+        <button type="button" class="btn view-project-btn">Koukni na projekt</button>
+        <div class="portfolio-item-details">
+          <div class="description">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia magnam ratione, dolorem similique cumque, quisquam nesciunt nihil eum mollitia placeat quia? Veniam, aspernatur.</p>
+          </div>
+          <div class="general-info">
+            <ul>
+              <li>Vytvořeno - <span>18. prosince 2022</span></li>
+              <li>Technologie - <span>HTML, CSS, JavaScript, SCSS</span></li>
+              <li>Role - Frontend</li>
+              <li>Koukni se online - <span><a href="#" target="_blank">www.neexistuje.com</a></span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- Portfolio item Konec -->  
+      </div>
+    </div>
+    </section>
+    <!-- Portfolio Section Konec -->
+
+    <!-- Kontakt Section Start -->
+    <section class="contact-section sec-padding" id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Kontaktuj mě</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="contact-form">
+          <form action="mailto:havelka.david10@gmail.com" method="post" enctype="text/plain">
+            <div class="row">
+              <div class="input-group">
+                <input type="text" placeholder="Jméno" class="input-control" required>
+              </div>
+              <div class="input-group">
+                <input type="text" placeholder="E-mail" class="input-control" required>
+              </div>
+              <div class="input-group">
+                <input type="text" placeholder="Sujekt" class="input-control" required>
+              </div>
+              <div class="input-group">
+                <textarea placeholder="Zpráva" class="input-control" required></textarea>
+              </div>
+              <div class="submit-btn">
+                <button type="submit" class="btn">Pošli zprávu</button>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="contact-info">
+          <div class="contact-info-item">
+            <h3>E-mail</h3>
+            <p>havelka.david10@gmail.com</p>
+          </div>
+          <div class="contact-info-item">
+            <h3>Telefon</h3>
+            <p>+420 722 153 744</p>
+          </div>
+          <div class="contact-info-item">
+            <h3>Sleduj mě</h3>
+            <div class="social-links">
+              <a href="https://www.facebook.com/david.havelka.5" target="_blank"><i class="fab fa-facebook-f"></i></a>
+              <a href="https://twitter.com/Dragn14258082" target="_blank"><i class="fab fa-twitter"></i></a>
+              <a href="https://www.instagram.com/daviid_havelka" target="_blank"><i class="fab fa-instagram"></i></a>
+              <a href="https://www.linkedin.com/in/david-havelka" target="_blank"><i class="fab fa-linkedin"></i></a>
+              <a href="https://www.youtube.com/channel/UC9rs_HjoQKW7hvsjc2gXhgw" target="_blank"><i class="fab fa-youtube"></i></a>
+              <a href="https://github.com/SojeNeQ" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+    <!-- Kontakt Section Konec -->
+
+  </div> 
+  <!-- Konec home section  -->
+
+
+  <!-- Portfolio item Detaily Start -->
+  <div class="portfolio-popup">
+    <div class="pp-inner">
+      <div class="pp-content">
+        <div class="pp-header">
+          <button type="button" class="btn pp-close"><i class="fas fa fa-times"></i></button>
+          <div class="pp-thumbnail">
+            <img src="img/portfolio/2.jpg" alt="pp-thumbnail">
+          </div>
+          <h3 class="Zkouska"></h3>
+        </div>
+        <div class="pp-body">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Portfolio item Detaily Konec -->
+
+  <script src="js/script.js"></script>
+</body>
+</html>
