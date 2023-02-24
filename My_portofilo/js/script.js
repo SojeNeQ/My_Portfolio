@@ -62,7 +62,6 @@ tabsContainer.addEventListener("click", (e) =>{
     }
 });
 
-// DOdělat
 /* ------------- Portfolio item details ------------- */
 document.addEventListener("click", (e) =>{
     if(e.target.classList.contains("view-project-btn")){
