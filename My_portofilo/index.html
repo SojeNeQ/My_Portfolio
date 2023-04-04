@@ -9,7 +9,6 @@
   
 </head>
 <body>
-
   <!-- Page loader Start -->
   <div class="page-loader fade-out">
     <div></div>
@@ -48,7 +47,8 @@
             <ul>
               <li><a href="#home" class="nav-item link-item">Domů</a></li>
               <li><a href="#about" class="nav-item link-item">O mně</a></li>
-              <li><a href="#portfolio" class="nav-item link-item">Portfolio</a></li>
+              <li><a href="#portfolio-code" class="nav-item link-item">Portfolio code</a></li>
+              <li><a href="#portfolio-ui-a-ux" class="nav-item link-item">Portfolio UI a UX</a></li>
               <li><a href="#contact" class="nav-item link-item">Kontakt</a></li>
             </ul>
           </div>
@@ -83,8 +83,9 @@
           </script>
 
 
+          <a href="#portfolio-code" class="btn link-item">Portfolio Code</a>
+          <a href="#portfolio-ui-a-ux" class="btn link-item">Portfolio UI a UX</a>
           <a href="#about" class="btn link-item">Více o mně</a>
-          <a href="#portfolio" class="btn link-item">Portfolio</a>
         </div>
         <div class="home-img">
           <div class="img-box">
@@ -122,17 +123,19 @@
           <div class="skill-item">PHP</div>
           <div class="skill-item">MYSQL</div>
           <div class="skill-item">React</div>
+          <div class="skill-item">Boostrap</div>
+          <div class="skill-item">TypeScript</div>
+          <div class="skill-item">GIT</div>
           <div class="skill-item">jQuery</div>
-          <div class="skill-item">Bootstrap</div>
           <div class="skill-item">Laravel</div>
           <div class="skill-item">Vue.js</div>
+          <div class="skill-item">Figma</div>
           <div class="skill-item">Adobe Photoshop</div>
           <div class="skill-item">Adobe Xd</div>
           <div class="skill-item">Adobe Premiere pro</div>
           <div class="skill-item">Adobe Audition</div>
           <div class="skill-item">Adobe Illustrator</div>
           <div class="skill-item">Adobe Dreamweaver</div>
-          <div class="skill-item">Final Cut Pro</div>
         </div>
 
           <div class="about-tabs">
@@ -150,7 +153,7 @@
               </div>
               <div class="timeline-item">
                 <span class="date">2015-2019</span>
-                <h4>Bezpečnostně právní akademie - <span>Škola zaměřená na policii</span></h4>
+                <h4>Bezpečnostně právní akademie - <span>Škola zaměřená na policistu</span></h4>
                 <p>Bezpečnostně právní činnost</p>
               </div>
             </div>
@@ -182,7 +185,7 @@
     <!-- About Section Konec -->
 
     <!-- Portfolio Section Start -->
-    <section class="portfolio-section sec-padding" id="portfolio">
+    <section class="portfolio-section sec-padding" id="portfolio-code">
     <div class="container">
       <div class="row">
         <div class="section-title">
@@ -261,6 +264,62 @@
     </section>
     <!-- Portfolio Section Konec -->
 
+    <!-- Portfolio UI and UX Section Start -->
+    <section class="portfolio-section sec-padding" id="portfolio-ui-a-ux">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Nejnovější práce</h2>
+      </div>
+    </div>
+    <div class="row">
+      <!-- Portfolio item Start -->
+      <div class="portfolio-item">
+        <div class="portfolio-item-thumbnail">
+          <img src="img/portfolio/ui-1.jpg" alt="portfolio item thumb">
+        </div>
+        <h3 class="portfolio-item-title">Flight Booking app</h3>
+        <button type="button" class="btn view-project-btn">Koukni na projekt</button>
+        <div class="portfolio-item-details">
+          <div class="description">
+            <p>Můj první projekt vytvořený ve Figmě</p>
+          </div>
+          <div class="general-info">
+            <ul>
+              <li>Vytvořeno - <span>4. března 2023</span></li>
+              <li>Technologie - <span>Figma, Photoshop</span></li>
+              <li>Koukni se online - <span><a href="https://www.figma.com/proto/1Zc7nVMMWQ4fatOuLdZb5M/Flight-Booking-App?page-id=103%3A223&node-id=103-224&viewport=126%2C346%2C0.71&scaling=scale-down&starting-point-node-id=103%3A224" target="_blank">Figma Flight Booking app</a></span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- Portfolio item Konec -->
+      <!-- Portfolio item Start -->
+      <div class="portfolio-item">
+        <div class="portfolio-item-thumbnail">
+          <img src="img/portfolio/ui-2.jpg" alt="portfolio item thumb">
+        </div>
+        <h3 class="portfolio-item-title">Homepage pro firmu Netmate</h3>
+        <button type="button" class="btn view-project-btn">Koukni na projekt</button>
+        <div class="portfolio-item-details">
+          <div class="description">
+            <p>Homepage pro firmu Netmate. Velmi hrubý návrh</p>
+          </div>
+          <div class="general-info">
+            <ul>
+              <li>Vytvořeno - <span>10. února 2023</span></li>
+              <li>Technologie - <span>Adobe Xd, Photoshop</span></li>
+              <li>Koukni se online - <span><a href="https://xd.adobe.com/view/685dd0af-f991-40d2-9087-3d621278f062-3d0e/" target="_blank">Homepage Netmate</a></span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- Portfolio item Konec -->
+      </div>
+    </div>
+    </section>
+    <!-- Portfolio Section Konec -->
+
     <!-- Kontakt Section Start -->
     <section class="contact-section sec-padding" id="contact">
     <div class="container">
@@ -280,7 +339,7 @@
                 <input type="text" placeholder="E-mail" class="input-control" required>
               </div>
               <div class="input-group">
-                <input type="text" placeholder="Sujekt" class="input-control" required>
+                <input type="text" placeholder="Subjekt" class="input-control" required>
               </div>
               <div class="input-group">
                 <textarea placeholder="Zpráva" class="input-control" required></textarea>
@@ -340,5 +399,7 @@
   <!-- Portfolio item Detaily Konec -->
 
   <script src="js/script.js"></script>
+  <script src="js/cookie-language.js"></script>
+  <script src="js/load-cookie.js"></script>
 </body>
 </html>
